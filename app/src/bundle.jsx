@@ -1,6 +1,8 @@
-var React = require('React');
+/** @jsx React.DOM */
+
+var React = require('react');
 //var mui = require('material-ui');
-var $ = require('jQuery');
+var $ = require('jquery');
 var moment = require('moment');
 
 var PageHeader = React.createClass({
